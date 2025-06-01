@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.container {
+  background: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover, .btn:hover {
+  background: #0056b3;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.pesan {
+  color: red;
+}
+
+.pesan-sukses {
+  color: green;
+}
+
+.btn-edit {
+  background-color: green;
+}
+
+.btn-hapus {
+  background-color: #dc3545;
+}
